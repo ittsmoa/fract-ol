@@ -6,9 +6,10 @@
 /*   By: moatieh <moatieh@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 18:26:20 by moatieh           #+#    #+#             */
-/*   Updated: 2026/01/31 18:26:20 by moatieh          ###   ########.fr       */
+/*   Updated: 2026/02/01 16:00:17 by moatieh          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "fractol.h"
 
 static int	same_str(char *a, char *b)

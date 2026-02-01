@@ -6,9 +6,10 @@
 /*   By: moatieh <moatieh@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 18:42:11 by moatieh           #+#    #+#             */
-/*   Updated: 2026/01/31 18:42:11 by moatieh          ###   ########.fr       */
+/*   Updated: 2026/02/01 16:01:17 by moatieh          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "fractol.h"
 
 int	close_event(t_app *app)
