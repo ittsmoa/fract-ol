@@ -6,7 +6,7 @@
 /*   By: moatieh <moatieh@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 18:26:20 by moatieh           #+#    #+#             */
-/*   Updated: 2026/02/01 17:09:47 by moatieh          ###   ########.fr       */
+/*   Updated: 2026/02/01 17:42:15 by moatieh          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ static int	is_valid_double(char *s)
 	has_dot = 0;
 	if (*s == '-' || *s == '+')
 		s++;
+	if (*s == '.')
+		return (0);
 	while (*s)
 	{
 		if (*s >= '0' && *s <= '9')
