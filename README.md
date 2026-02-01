@@ -103,6 +103,15 @@ The Julia set uses the same formula: **z(n+1) = z(n)² + c**
 - c is a constant complex parameter (provided by user)
 - Different c values create entirely different fractal shapes
 
+## AI Usage
+
+AI assistance (Claude) was used for handling edge cases in the project, specifically:
+- **Input validation edge cases**: Handling malformed floating-point numbers and extreme parameter values
+- **Numerical stability**: Managing edge cases in zoom calculations and coordinate transformations at extreme zoom levels
+- **Error handling**: Identifying and handling potential edge cases in memory allocation and MiniLibX operations
+
+All core algorithm implementations, mathematical calculations, and program architecture were developed independently.
+
 ## Resources
 
 **Fractals & Mathematics:**
@@ -114,3 +123,4 @@ The Julia set uses the same formula: **z(n+1) = z(n)² + c**
 **Graphics Programming:**
 - [MiniLibX Documentation](https://harm-smits.github.io/42docs/libs/minilibx)
 - [Color Theory in Fractals](https://en.wikipedia.org/wiki/Fractal_art)
+```
